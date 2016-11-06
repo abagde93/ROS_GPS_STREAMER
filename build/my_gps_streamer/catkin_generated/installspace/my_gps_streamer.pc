@@ -1,0 +1,8 @@
+prefix=/home/odroid/catkin_ws/install
+
+Name: my_gps_streamer
+Description: Description of my_gps_streamer
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/odroid/catkin_ws/install/lib 
+Requires: 

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "my_gps_streamer")
+set(my_gps_streamer_MAINTAINER "odroid <odroid@todo.todo>")
+set(my_gps_streamer_DEPRECATED "")
+set(my_gps_streamer_VERSION "0.0.0")
+set(my_gps_streamer_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(my_gps_streamer_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(my_gps_streamer_BUILDTOOL_DEPENDS "catkin")
