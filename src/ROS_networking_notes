@@ -1,0 +1,20 @@
+Once ROS is installed on a system:
+
+1. Navigate to catkin_ws, or whatever the development folder is called
+2. source devel/setup.bash --> or go to ros tutorials to add to startup, so that   you don't have do do this every time a new window is opened
+3. Now test that ROS is running by typing "roscore" or "rosnode list"
+
+Once ROS is up and running on several systems:
+
+1. Make sure these systems are on the same network. Edit /etc/hosts file
+2. Make sure each system has all other systems username and ip address
+3. Make sure machines can ping each other(from names, not IP's
+4. Start roscore on "master" machine
+5. run: export ROS_MASTER_URI=http://<master_name>:11311
+6. If everything has gone well you should see the same rostopic list on every ma   chine
+
+For more help:
+wiki.ros.org/ROS/Tutorials/MultipleMachines
+wiki.ros.org/ROS/NetworkSetup
+
+
