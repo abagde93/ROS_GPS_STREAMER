@@ -1,2 +1,2 @@
 my_gps_streamer
--DCATKIN_DEVEL_PREFIX=/home/odroid/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/odroid/catkin_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/odroid/ROS_stuff/devel -DCMAKE_INSTALL_PREFIX=/home/odroid/ROS_stuff/install -G Unix Makefiles

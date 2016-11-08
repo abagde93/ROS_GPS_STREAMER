@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odroid/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/odroid/ROS_stuff/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odroid/catkin_ws/build
+CMAKE_BINARY_DIR = /home/odroid/ROS_stuff/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_cpp.
 
@@ -56,10 +56,10 @@ my_gps_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build: rosgra
 .PHONY : my_gps_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 
 my_gps_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	cd /home/odroid/catkin_ws/build/my_gps_streamer && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/odroid/ROS_stuff/build/my_gps_streamer && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : my_gps_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 my_gps_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend:
-	cd /home/odroid/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odroid/catkin_ws/src /home/odroid/catkin_ws/src/my_gps_streamer /home/odroid/catkin_ws/build /home/odroid/catkin_ws/build/my_gps_streamer /home/odroid/catkin_ws/build/my_gps_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/odroid/ROS_stuff/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odroid/ROS_stuff/src /home/odroid/ROS_stuff/src/my_gps_streamer /home/odroid/ROS_stuff/build /home/odroid/ROS_stuff/build/my_gps_streamer /home/odroid/ROS_stuff/build/my_gps_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_gps_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 

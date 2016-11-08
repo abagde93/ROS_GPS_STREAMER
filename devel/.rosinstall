@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/odroid/catkin_ws/devel/setup.sh
+    local-name: /home/odroid/ROS_stuff/devel/setup.sh

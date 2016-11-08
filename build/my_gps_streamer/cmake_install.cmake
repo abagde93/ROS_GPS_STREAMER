@@ -1,8 +1,8 @@
-# Install script for directory: /home/odroid/catkin_ws/src/my_gps_streamer
+# Install script for directory: /home/odroid/ROS_stuff/src/my_gps_streamer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/odroid/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/odroid/ROS_stuff/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/odroid/catkin_ws/build/my_gps_streamer/catkin_generated/installspace/my_gps_streamer.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/odroid/ROS_stuff/build/my_gps_streamer/catkin_generated/installspace/my_gps_streamer.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_gps_streamer/cmake" TYPE FILE FILES
-    "/home/odroid/catkin_ws/build/my_gps_streamer/catkin_generated/installspace/my_gps_streamerConfig.cmake"
-    "/home/odroid/catkin_ws/build/my_gps_streamer/catkin_generated/installspace/my_gps_streamerConfig-version.cmake"
+    "/home/odroid/ROS_stuff/build/my_gps_streamer/catkin_generated/installspace/my_gps_streamerConfig.cmake"
+    "/home/odroid/ROS_stuff/build/my_gps_streamer/catkin_generated/installspace/my_gps_streamerConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_gps_streamer" TYPE FILE FILES "/home/odroid/catkin_ws/src/my_gps_streamer/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_gps_streamer" TYPE FILE FILES "/home/odroid/ROS_stuff/src/my_gps_streamer/package.xml")
 endif()
 

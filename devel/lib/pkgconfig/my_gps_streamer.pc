@@ -1,8 +1,8 @@
-prefix=/home/odroid/catkin_ws/devel
+prefix=/home/odroid/ROS_stuff/devel
 
 Name: my_gps_streamer
 Description: Description of my_gps_streamer
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/odroid/catkin_ws/devel/lib 
+Libs: -L/home/odroid/ROS_stuff/devel/lib 
 Requires: 

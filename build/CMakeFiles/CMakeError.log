@@ -1,26 +1,26 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/odroid/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/ROS_stuff/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec102106066/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec102106066.dir/build.make CMakeFiles/cmTryCompileExec102106066.dir/build
-make[1]: Entering directory '/home/odroid/catkin_ws/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/odroid/catkin_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec102106066.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec102106066.dir/CheckSymbolExists.c.o   -c /home/odroid/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec102106066
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec102106066.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec102106066.dir/CheckSymbolExists.c.o  -o cmTryCompileExec102106066 -rdynamic 
-CMakeFiles/cmTryCompileExec102106066.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2075052740/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2075052740.dir/build.make CMakeFiles/cmTryCompileExec2075052740.dir/build
+make[1]: Entering directory '/home/odroid/ROS_stuff/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/ROS_stuff/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2075052740.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2075052740.dir/CheckSymbolExists.c.o   -c /home/odroid/ROS_stuff/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2075052740
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2075052740.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2075052740.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2075052740 -rdynamic 
+CMakeFiles/cmTryCompileExec2075052740.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0xe): undefined reference to `pthread_create'
 CheckSymbolExists.c:(.text+0x12): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTryCompileExec102106066.dir/build.make:88: recipe for target 'cmTryCompileExec102106066' failed
-make[1]: *** [cmTryCompileExec102106066] Error 1
-make[1]: Leaving directory '/home/odroid/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:118: recipe for target 'cmTryCompileExec102106066/fast' failed
-make: *** [cmTryCompileExec102106066/fast] Error 2
+CMakeFiles/cmTryCompileExec2075052740.dir/build.make:88: recipe for target 'cmTryCompileExec2075052740' failed
+make[1]: *** [cmTryCompileExec2075052740] Error 1
+make[1]: Leaving directory '/home/odroid/ROS_stuff/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2075052740/fast' failed
+make: *** [cmTryCompileExec2075052740/fast] Error 2
 
-File /home/odroid/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/odroid/ROS_stuff/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -36,23 +36,23 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/odroid/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/ROS_stuff/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3807773241/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3807773241.dir/build.make CMakeFiles/cmTryCompileExec3807773241.dir/build
-make[1]: Entering directory '/home/odroid/catkin_ws/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/odroid/catkin_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3807773241.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3807773241.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3807773241
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3807773241.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3807773241.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3807773241 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTryCompileExec54400120/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec54400120.dir/build.make CMakeFiles/cmTryCompileExec54400120.dir/build
+make[1]: Entering directory '/home/odroid/ROS_stuff/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/ROS_stuff/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec54400120.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec54400120.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec54400120
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec54400120.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec54400120.dir/CheckFunctionExists.c.o  -o cmTryCompileExec54400120 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTryCompileExec3807773241.dir/build.make:88: recipe for target 'cmTryCompileExec3807773241' failed
-make[1]: *** [cmTryCompileExec3807773241] Error 1
-make[1]: Leaving directory '/home/odroid/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:118: recipe for target 'cmTryCompileExec3807773241/fast' failed
-make: *** [cmTryCompileExec3807773241/fast] Error 2
+CMakeFiles/cmTryCompileExec54400120.dir/build.make:88: recipe for target 'cmTryCompileExec54400120' failed
+make[1]: *** [cmTryCompileExec54400120] Error 1
+make[1]: Leaving directory '/home/odroid/ROS_stuff/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec54400120/fast' failed
+make: *** [cmTryCompileExec54400120/fast] Error 2
 
 
